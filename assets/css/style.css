@@ -255,11 +255,11 @@ section {
 }
 /* CONTACT SECTION
 -------------------------------------------------- */
-section#contact{
-    background: rgba(0, 0, 0, 0.81);
-   /* background-image: url(images/map-image.png);*/
+#contact {
+    /* background-image: url(images/map-image.png); */
     background-position: center;
     background-repeat: no-repeat;
+    background-color: rgba(128, 128, 128, 0.75);
 }
 
 /* ABOUT SECTION
