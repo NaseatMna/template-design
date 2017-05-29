@@ -6,6 +6,7 @@
 body {
 	color: #5a5a5a;
 	font-family: 'Lato', sans-serif;
+	position: relative;
 }
 h1, h2, h3, h4, h5 {
 	font-family: 'Montserrat', sans-serif;
@@ -123,10 +124,15 @@ section {
 	border-bottom: 2px solid #fff;
 	border-radius: 0;
 }
-.sps--blw.top-bar .nav-link:hover, .sps--blw.top-bar .nav-item.active a {
+.sps--blw.top-bar .nav-link:hover {
 	color: #0297ff;
 	border-bottom: none;
 	border-radius: 0;
+}
+.sps--blw.top-bar .nav-item.active a{
+	border-bottom: 2px solid #f7f9fb;
+    text-decoration: none;
+    font-weight: bold;
 }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
